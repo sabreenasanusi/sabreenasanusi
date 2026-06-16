@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gallery | Nursabrina</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #F7E6D5;
+        color: #333;
+    }
+
+    /* ===== HEADER BANNER ===== */
+    header {
+        height: 300px;
+        background-image: url("resource/image/banner.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* ===== NAVIGATION ===== */
+    nav {
+        background-color: #7A8450;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+    text-decoration: underline;
+    color: #F58CA8; 
+}
+
+    /* ===== CONTENT ===== */
+    main {
+        padding: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #9C072C;
+        margin-bottom: 10px;
+    }
+
+    .learn-more {
+        text-align: center;
+        font-size: 14px;
+        margin: 30px 0;
+        color: #555;
+    }
+
+    /* ===== GALLERY GRID ===== */
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 25px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .gallery-item {
+        background-color: #fff;
+        padding: 12px;
+        border-radius: 14px;
+        box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+        text-align: center;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s;
+    }
+
+    .gallery-item img:hover {
+        transform: scale(1.05);
+    }
+
+    .gallery-item p {
+        font-size: 14px;
+        margin-top: 10px;
+        color: #555;
+    }
+
+    /* ===== VIDEO TABLE ===== */
+    table {
+        margin: 40px auto;
+        border-collapse: collapse;
+        width: 80%;
+        text-align: center;
+    }
+
+    th {
+        padding: 10px;
+        color: #9C072C;
+        font-size: 16px;
+    }
+
+    td {
+        padding: 15px;
+    }
+
+    video {
+        width: 100%;
+        max-width: 250px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    /* ===== BACK TO TOP ===== */ 
+.back-to-top {
+     text-align: center; margin: 30px 0; }
+ .back-to-top a {
+     display: inline-block; margin: 0 15px; padding: 5px 10px; font-weight: bold; color: #C80959; text-decoration: none; transition: color 0.3s;
+ } 
+ .back-to-top a:hover { 
+    color: #E4F527; text-decoration: underline; } /* Heading style */ h2 { text-align: center; color: #9C072C; margin-top: 40px; 
+}
+
+    /* ===== FOOTER ===== */
+    footer {
+        background-color: #F86388;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 60px;
+    }
+</style>
+</head>
+
+<body>
+
+<header></header>
+
+<nav>
+    <a href="index.html" tabindex="1">Home</a>
+    <a href="personal.html"tabindex="2">Personal</a>
+    <a href="hobby.html"tabindex="4">Hobbies</a>
+    <a href="gallery.html"tabindex="5">Gallery</a>
+    <a href="contact.html"tabindex="6">Contact</a>
+</nav>
+
+<main>
+
+   <h2 id="h1">My Gallery</h2>
+   <marquee loop="10"><h1>Where simple moments turn into beautiful memories</h1></marquee>
+
+    <div class="gallery">
+
+        <!-- SEMUA GAMBAR KEKAL -->
+        <div class="gallery-item"><img src="resource/image/sabbycutie.jpeg"><p>Taking a step into a fresh chapter of life.</p></div>
+        <div class="gallery-item"><img src="resource/image/medsflower.jpeg"><p>A photo that holds special meaning.</p></div>
+        <div class="gallery-item"><img src="resource/image/favdeck.jpeg"><p>My favourite deck.</p></div>
+        <div class="gallery-item"><img src="resource/image/comfortfood.jpeg"><p>My forever comfort food.</p></div>
+        <div class="gallery-item"><img src="resource/image/meandanis.jpeg"><p>A friend I proudly call home.</p></div>
+        <div class="gallery-item"><img src="resource/image/pakcu.jpeg"><p>A picture of me and my beloved pakcu.</p></div>
+        <div class="gallery-item"><img src="resource/image/sofea.jpeg"><p>One real friend, endless laughter.</p></div>
+        <div class="gallery-item"><img src="resource/image/amed.jpeg"><p>A glimpse into a history worth remembering.</p></div>
+        <div class="gallery-item"><img src="resource/image/cookie.jpeg"><p>My sugar glidder.</p></div>
+        <div class="gallery-item"><img src="resource/image/menipedi.jpeg"><p>Doing menicure & pedicure as my hobiholic.</p></div>
+        <div class="gallery-item"><img src="resource/image/umar.jpeg"><p>Wan Muhammad Umar Ayish.</p></div>
+        <div class="gallery-item"><img src="resource/image/coffe.jpeg"><p>A picture of where the betrayal friendship happened.</p></div>
+        <div class="gallery-item"><img src="resource/image/careventpavi.jpeg"><p>Joining a car even at Pavilion Bukit Bintang.</p></div>
+        <div class="gallery-item"><img src="resource/image/facial.jpeg"><p>My current facial treatment follow-up.</p></div>
+        <div class="gallery-item"><img src="resource/image/meandbasyi.jpeg"><p>Me and Basyirah.</p></div>
+        <div class="gallery-item"><img src="resource/image/sabbyandmeddylagi.jpeg"><p>My human diary.</p></div>
+        <div class="gallery-item"><img src="resource/image/raya.jpeg"><p>My raya picture.</p></div>
+        <div class="gallery-item"><img src="resource/image/sabbyandmeddy.jpeg"><p>My comfort food and my comfort person.</p></div>
+        <div class="gallery-item"><img src="resource/image/sabbymajuk.jpeg"><p>My most simple makeup.
+        </p></div>
+        <div class="gallery-item"><img src="resource/image/sukadessert.jpeg"><p>My best place dessert to go.</p></div>
+        <div class="gallery-item"><img src="resource/image/supportingmymeddy.jpeg"><p>Supporting my fiance's soccer game.</p></div>
+        <div class="gallery-item"><img src="resource/image/flowersabby.jpeg"><p>Where my love for art comes alive</p></div>
+        <div class="gallery-item"><img src="resource/image/babyy.jpeg"><p>A picture of me with a cute chicks</p></div>
+        <div class="gallery-item"><img src="resource/image/mycarcollection.jpeg"><p>My favourite collection.</p></div>
+
+    </div>
+    <marquee loop="10"><h1>Moments. Details. Stories to explore.</h1></marquee>
+
+    <div class="back-to-top">
+    <a href="#h1">Back to Top</a>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Nursabrina. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

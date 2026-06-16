@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hobbies | Nursabrina</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #F7E6D5;
+        color: #333;
+    }
+
+
+    /* ===== HEADER BANNER ===== */
+    header {
+        height: 300px;
+        background-image: url("resource/image/banner.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* ===== NAVIGATION ===== */
+    nav {
+        background-color: #7A8450;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+  nav a:hover {
+    text-decoration: underline;
+    color: #F58CA8; 
+}
+
+    /* ===== MAIN CONTENT ===== */
+    main {
+        padding: 40px;
+    }
+
+    main h2 {
+        text-align: center;
+        color: #9C072C;
+        margin-bottom: 30px;
+    }
+
+    /* ===== HOBBY CARDS ===== */
+    .hobby-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .hobby-box {
+        background-color: #FFF8F3;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+        text-align: center;
+        transition: transform 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hobby-box:hover {
+        transform: scale(1.03);
+    }
+
+    .hobby-box img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .hobby-box h3 {
+        color: #9C072C;
+        margin-bottom: 8px;
+    }
+
+    .hobby-box p {
+        color: #555;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .hobby-box ol {
+        text-align: left;
+        padding-left: 20px;
+        color: #555;
+        font-size: 0.95rem;
+    }
+
+    .hobby-box ol li a {
+        color: #9C072C;
+        text-decoration: none;
+    }
+
+    .hobby-box ol li a:hover {
+        text-decoration: underline;
+    }
+
+    /* ===== CENTERED MUSIC BOX ===== */
+    .music-box {
+        grid-column: 1 / -1; 
+        max-width: 500px;    
+        margin: 0 auto;      
+    }
+
+    .music-box .image-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .music-box .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: rgba(255, 255, 255, 0.8);
+        text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+        pointer-events: none;
+    }
+
+    .music-box img {
+        border-radius: 10px;
+    }
+
+    /* ===== BACK TO TOP ===== */ 
+.back-to-top {
+     text-align: center; margin: 30px 0; }
+ .back-to-top a {
+     display: inline-block; margin: 0 15px; padding: 5px 10px; font-weight: bold; color: #C80959; text-decoration: none; transition: color 0.3s;
+ } 
+ .back-to-top a:hover { 
+    color: #E4F527; text-decoration: underline; } /* Heading style */ h2 { text-align: center; color: #9C072C; margin-top: 40px; 
+}
+
+    /* ===== FOOTER ===== */
+    footer {
+        background-color: #F86388;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 60px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER BANNER ===== -->
+<header></header>
+
+<!-- ===== NAV ===== -->
+<nav>
+    <a href="index.html" tabindex="1">Home</a>
+    <a href="personal.html"tabindex="2">Personal</a>
+    <a href="hobby.html"tabindex="4">Hobbies</a>
+    <a href="gallery.html"tabindex="5">Gallery</a>
+    <a href="contact.html"tabindex="6">Contact</a>
+</nav>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main>
+
+    <h2 id="h1">My Hobbies</h2>
+
+    <div class="hobby-section">
+        <div class="hobby-box">
+            <img src="resource/image/skateboardhunting.jpeg" alt="Skateboard">
+            <h3>Skateboard</h3>
+            <p>Skateboarding isn’t just a hobby; it’s my therapy. When life feels overwhelming, I lose myself in skateboarding, allowing it to clear my mind, lift my spirits and renew my energy..</p>
+        </div>
+
+        <div class="hobby-box">
+            <img src="resource/image/cooking.jpeg" alt="Cooking">
+            <h3>Cooking</h3>
+            <p>I view cooking as a way to express care, using my culinary skills to delight and bring joy to others.</p>
+        </div>
+
+        <div class="hobby-box">
+            <img src="resource/image/carevent.jpeg" alt="Car Event">
+            <h3>Car Event</h3>
+            <p>Joining car events is one of my favorite hobbies. I enjoy seeing a variety of vehicles, learning about automotive trends, and sharing my passion for cars with others.</p>
+        </div>
+
+        <div class="hobby-box">
+            <img src="resource/image/cafehunting.jpeg" alt="Food Hunting">
+            <h3>Food Hunting</h3>
+            <p>I love visiting trending cafés and trying new dishes each month, treating these little food adventures as a reward after a busy month and a moment of pure joy.</p>
+        </div>
+
+        <div class="hobby-box">
+            <img src="resource/image/shopping.jpeg" alt="Shopping">
+            <h3>Shopping</h3>
+            <p>Shopping feels like finding treasures everywhere, new items, fresh discoveries, and the scent of the mall make every trip a little adventure.</p>
+        </div>
+
+        <!-- ===== CENTERED LISTENING MUSIC BOX ===== -->
+        <div class="hobby-box music-box">
+            <div class="image-container">
+                <img src="resource/image/emptypage.jpeg" alt="Listening Music">
+                <div class="play-button">&#9658;</div>
+            </div>
+            <h3>Listening Music</h3>
+            <p>Music is my escape, a moment to relax, feel calm, and enjoy the day. Here are my top 3 favorite songs that inspire me and lift my spirits:</p>
+            <ol type="1">
+                <li><a href="https://www.youtube.com/watch?v=RJEbHXCkttY&list=RDRJEbHXCkttY&start_radio=1" target="_blank">Jika - Empty Page</a></li>
+                <li><a href="https://www.youtube.com/watch?v=R_tq-KA1HAY&list=RDR_tq-KA1HAY&start_radio=1" target="_blank">Bagaimana Jika Aku Tiada - Empty Page</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SGwTufJF-9E&list=RDSGwTufJF-9E&start_radio=1" target="_blank">Seperti Dulu - Insomniacks</a></li>
+            </ol>
+        </div>
+
+    </div>
+
+</main>
+
+    <hr size="5" color="pink">
+    
+     <h2 style="text-align: center;">Current Songs on Repeat</h2>
+
+<div style="text-align: center; margin-top: 30px;">
+    <!-- Frame container -->
+    <div style="
+        display: inline-block;
+        border: 5px solid #F7E6D5;  /* frame border color */
+        padding: 15px;
+        border-radius: 15px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    ">
+        <!-- Image -->
+        <img src="resource/image/merra.jpeg" alt="Merra-Colorcode" style="width:300px; height:auto; display:block; margin-bottom: 15px; border-radius: 10px;">
+
+        <!-- Audio player -->
+        <audio controls autoplay loop style="width: 100%;">
+            <source src=""C:\Users\sabre\OneDrive\newhtml\resource\image\Merra.mp3 type="audio/mpeg">
+            <source src="resource/image/merra.mp3" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+
+
+        <br>
+
+        <div class="back-to-top">
+    <a href="#h1">Back to Top</a>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>&copy; 2025 Nursabrina. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

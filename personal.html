@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nursabrina Website</title>
+
+<style>
+/* ===== GENERAL ===== */
+body {
+    background-color: #F7E6D5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    height: 300px;
+    background-image: url("resource/image/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    background-color: #7A8450;
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav a {
+    color: white !important;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #F58CA8; 
+}
+
+/* ===== TABLE ===== */
+table, th, td {
+    border: 1px solid #9C072C;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #D98C9C;
+    color: white;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* ===== BLOCKQUOTE ===== */
+blockquote {
+    font-style: italic;
+    color: #F86388;
+    text-align: center;
+    margin: 30px 20px;
+}
+
+/* ===== GALLERY ===== */
+.gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery img {
+    height: 300px;
+    border: 5px solid #9C072C;
+    margin: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== ABOUT ME ===== */
+.about-me {
+    border: 2px solid #9C072C;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FA8FBB;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px rgba(156,7,44,0.3);
+    line-height: 1.6;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    text-align: center;
+    color: #9C072C;
+    margin-top: 50px;
+}
+
+/* ===== SKILLS TABLE ===== */
+.skills-table {
+    width: 85%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(156,7,44,0.3);
+}
+
+.skills-table th {
+    background-color: #9C072C;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.skills-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-table tr:sec-child td {
+    border-bottom: none;
+}
+
+.skills-table img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #9C072C;
+    font-size: 16px;
+}
+
+.skill-desc {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ===== VISION BOARD ===== */
+.vision-board {
+    max-width: 1000px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.vision-card {
+    background-color: #FA8FBB;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(156,7,44,0.3);
+}
+
+.vision-card h3 {
+    color: #9C072C;
+}
+
+/* ===== BACK TO TOP ===== */
+.back-to-top {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.back-to-top a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #C80959;
+    text-decoration: none;
+}
+
+.back-to-top a:hover {
+    color: #E4F527;
+    text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color:#F86388;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 60px;
+}
+</style>
+</head>
+
+<body>
+
+<header></header>
+
+<nav>
+    <a href="index.html" tabindex="1">Home</a>
+    <a href="personal.html"tabindex="2">Personal</a>
+    <a href="hobby.html"tabindex="4">Hobbies</a>
+    <a href="gallery.html"tabindex="5">Gallery</a>
+    <a href="contact.html"tabindex="6">Contact</a>
+</nav>
+
+<h2 id="h1">MY PERSONAL DETAILS</h2>
+
+<table style="width:80%; margin:0 auto;">
+<tr><th>Name</th><td>NURSABRINA BINTI AHMAD SANUSI</td></tr>
+<tr><th>Age</th><td>21 YEARS OLD</td></tr>
+<tr><th>Race</th><td>MALAY</td></tr>
+<tr><th>Nationality</th><td>MALAYSIA</td></tr>
+<tr><th>State</th><td>SELANGOR</td></tr>
+<tr><th>City</th><td>SUNGAI BULOH</td></tr>
+<tr><th>Email</th><td>sabreenasanusi@icloud.com</td></tr>
+</table>
+
+<h2 id="h2">ABOUT ME</h2>
+
+<div class="gallery">
+    <img src="resource/image/sabrinaraya.jpeg" alt="21 yo">
+    <img src="resource/image/rayakedua.jpeg" alt="B2C">
+</div>
+
+<div class="about-me">
+<p>
+Many believe that introverted individuals cannot achieve a bright future, but I strive to prove that assumption wrong.
+My name is Nursabrina Binti Ahmad Sanusi, and I am from Sungai Buloh, Selangor, where I live with my close-knit family.
+As the eldest of fourth siblings, I carry a strong sense of responsibility and determination.
+I am also proud to be the first in my family to pursue higher education at Universiti Teknologi MARA (UiTM).
+</p>
+<p>
+I have a deep passion on fine art, which began when I was eleven years old and continues to grow today.
+Exploring a plenty of sketches from different street arts and joined an events which are experiences I truly cherish, especially when I have the opportunity
+to meet my favourite street arts.
+</p>
+</div>
+
+<h2 id="h3">SKILLS</h2>
+
+<table class="skills-table">
+<tr>
+    <th>Skill</th>
+    <th>Image</th>
+    <th>Description</th>
+</tr>
+
+<tr>
+    <td class="skill-name">Basic Microsoft Excel</td>
+    <td><img src="resource/image/excel.jpeg" alt="Excel"></td>
+    <td class="skill-desc">During my internship, I developed a basic understanding of Microsoft Excel and have continued to apply it effectively in my studies.</td>
+</tr>
+
+<tr>
+    <td class="skill-name">Teamwork</td>
+    <td><img src="resource/image/teamwork.jpeg" alt="Teamwork"></td>
+    <td class="skill-desc">Shows strong teamwork abilities by collaborating effectively, participating actively, and respecting diverse viewpoints in group environments.</td>
+</tr>
+
+<tr>
+    <td class="skill-name">Graphic Design</td>
+    <td><img src="resource/image/adobe.jpeg" alt="Design"></td>
+    <td class="skill-desc">demonstrates graphic design abilities by producing visually appealing posters and digital material while paying close attention to style, color, and originality.</td>
+</tr>
+</table>
+
+<h2 id="h4">VISION BOARD</h2>
+
+<section class="vision-board">
+<div class="vision-grid">
+    <div class="vision-card">
+        <h3>Academic Excellence</h3>
+        <p>Successfully graduate from UiTM and continue studies up to a PhD.</p>
+    </div>
+    <div class="vision-card">
+        <h3>Personal Growth</h3>
+        <p>Boost confidence by keeping a journal for self-reflection.</p>
+    </div>
+    <div class="vision-card">
+        <h3>Career Growth</h3>
+        <p>Strengthen leadership abilities and career development.</p>
+    </div>
+    <div class="vision-card">
+        <h3>Financial Goal</h3>
+        <p>Create a monthly budget and emergency fund.</p>
+    </div>
+</div>
+</section>
+
+<div class="back-to-top">
+    <a href="#h1">Personal</a>
+    <a href="#h2">About</a>
+    <a href="#h3">Skills</a>
+    <a href="#h4">Vision</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 Nursabrina | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
